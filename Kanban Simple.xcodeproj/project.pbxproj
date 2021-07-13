@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70630A8B269C1E25007C77D8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70630A8A269C1E25007C77D8 /* MenuView.swift */; };
+		70630A8D269C3F5B007C77D8 /* InProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70630A8C269C3F5B007C77D8 /* InProgressView.swift */; };
+		708EE4AF269D98E8003AAF76 /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708EE4AE269D98E8003AAF76 /* DoneView.swift */; };
+		7095D8D1269964A200996F31 /* Kanban_SimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8D0269964A200996F31 /* Kanban_SimpleApp.swift */; };
+		7095D8D3269964A200996F31 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8D2269964A200996F31 /* ToDoView.swift */; };
+		7095D8D5269964A300996F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7095D8D4269964A300996F31 /* Assets.xcassets */; };
+		7095D8D8269964A300996F31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7095D8D7269964A300996F31 /* Preview Assets.xcassets */; };
+		7095D8E2269964A300996F31 /* Kanban_SimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8E1269964A300996F31 /* Kanban_SimpleTests.swift */; };
+		7095D8EC269964A300996F31 /* Kanban_SimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8EB269964A300996F31 /* Kanban_SimpleUITests.swift */; };
+		7095D8FA26997BAB00996F31 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8F926997BAB00996F31 /* BottomView.swift */; };
+		7095D8FF26997EC200996F31 /* Kanban.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D8FE26997EC200996F31 /* Kanban.swift */; };
+		7095D90126998CF100996F31 /* KanbanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D90026998CF100996F31 /* KanbanViewModel.swift */; };
+		7095D90D2699C06000996F31 /* KanbanDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7095D90B2699C06000996F31 /* KanbanDataModel.xcdatamodeld */; };
+		7095D90F2699C64800996F31 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095D90E2699C64800996F31 /* PersistenceController.swift */; };
+		70D9D81A269C5BF800288814 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9D819269C5BF800288814 /* ListView.swift */; };
+		70D9D81C269C728000288814 /* KanbanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D9D81B269C728000288814 /* KanbanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7095D8DE269964A300996F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7095D8C5269964A200996F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7095D8CC269964A200996F31;
+			remoteInfo = "Kanban Simple";
+		};
+		7095D8E8269964A300996F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7095D8C5269964A200996F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7095D8CC269964A200996F31;
+			remoteInfo = "Kanban Simple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70630A8A269C1E25007C77D8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		70630A8C269C3F5B007C77D8 /* InProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressView.swift; sourceTree = "<group>"; };
+		708EE4AE269D98E8003AAF76 /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
+		7095D8CD269964A200996F31 /* Kanban Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kanban Simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7095D8D0269964A200996F31 /* Kanban_SimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban_SimpleApp.swift; sourceTree = "<group>"; };
+		7095D8D2269964A200996F31 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		7095D8D4269964A300996F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7095D8D7269964A300996F31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7095D8DD269964A300996F31 /* Kanban SimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanban SimpleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7095D8E1269964A300996F31 /* Kanban_SimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban_SimpleTests.swift; sourceTree = "<group>"; };
+		7095D8E7269964A300996F31 /* Kanban SimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kanban SimpleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7095D8EB269964A300996F31 /* Kanban_SimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban_SimpleUITests.swift; sourceTree = "<group>"; };
+		7095D8F926997BAB00996F31 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		7095D8FE26997EC200996F31 /* Kanban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kanban.swift; sourceTree = "<group>"; };
+		7095D90026998CF100996F31 /* KanbanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanViewModel.swift; sourceTree = "<group>"; };
+		7095D90C2699C06000996F31 /* KanbanDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KanbanDataModel.xcdatamodel; sourceTree = "<group>"; };
+		7095D90E2699C64800996F31 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		70D9D819269C5BF800288814 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		70D9D81B269C728000288814 /* KanbanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7095D8CA269964A200996F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8DA269964A300996F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8E4269964A300996F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7095D8C4269964A200996F31 = {
+			isa = PBXGroup;
+			children = (
+				7095D8CF269964A200996F31 /* Kanban Simple */,
+				7095D8E0269964A300996F31 /* Kanban SimpleTests */,
+				7095D8EA269964A300996F31 /* Kanban SimpleUITests */,
+				7095D8CE269964A200996F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7095D8CE269964A200996F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8CD269964A200996F31 /* Kanban Simple.app */,
+				7095D8DD269964A300996F31 /* Kanban SimpleTests.xctest */,
+				7095D8E7269964A300996F31 /* Kanban SimpleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7095D8CF269964A200996F31 /* Kanban Simple */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8D0269964A200996F31 /* Kanban_SimpleApp.swift */,
+				7095D8FD26997EAC00996F31 /* Models */,
+				7095D8F826997B6600996F31 /* Views */,
+				7095D90226998CFC00996F31 /* ViewModels */,
+				7095D8D4269964A300996F31 /* Assets.xcassets */,
+				7095D8D6269964A300996F31 /* Preview Content */,
+				7095D90B2699C06000996F31 /* KanbanDataModel.xcdatamodeld */,
+			);
+			path = "Kanban Simple";
+			sourceTree = "<group>";
+		};
+		7095D8D6269964A300996F31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8D7269964A300996F31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7095D8E0269964A300996F31 /* Kanban SimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8E1269964A300996F31 /* Kanban_SimpleTests.swift */,
+			);
+			path = "Kanban SimpleTests";
+			sourceTree = "<group>";
+		};
+		7095D8EA269964A300996F31 /* Kanban SimpleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8EB269964A300996F31 /* Kanban_SimpleUITests.swift */,
+			);
+			path = "Kanban SimpleUITests";
+			sourceTree = "<group>";
+		};
+		7095D8F826997B6600996F31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70D9D81B269C728000288814 /* KanbanView.swift */,
+				7095D8D2269964A200996F31 /* ToDoView.swift */,
+				70630A8C269C3F5B007C77D8 /* InProgressView.swift */,
+				708EE4AE269D98E8003AAF76 /* DoneView.swift */,
+				70D9D819269C5BF800288814 /* ListView.swift */,
+				70630A8A269C1E25007C77D8 /* MenuView.swift */,
+				7095D8F926997BAB00996F31 /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7095D8FD26997EAC00996F31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7095D8FE26997EC200996F31 /* Kanban.swift */,
+				7095D90E2699C64800996F31 /* PersistenceController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7095D90226998CFC00996F31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7095D90026998CF100996F31 /* KanbanViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7095D8CC269964A200996F31 /* Kanban Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7095D8EF269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban Simple" */;
+			buildPhases = (
+				7095D8C9269964A200996F31 /* Sources */,
+				7095D8CA269964A200996F31 /* Frameworks */,
+				7095D8CB269964A200996F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kanban Simple";
+			productName = "Kanban Simple";
+			productReference = 7095D8CD269964A200996F31 /* Kanban Simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7095D8DC269964A300996F31 /* Kanban SimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7095D8F2269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban SimpleTests" */;
+			buildPhases = (
+				7095D8D9269964A300996F31 /* Sources */,
+				7095D8DA269964A300996F31 /* Frameworks */,
+				7095D8DB269964A300996F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7095D8DF269964A300996F31 /* PBXTargetDependency */,
+			);
+			name = "Kanban SimpleTests";
+			productName = "Kanban SimpleTests";
+			productReference = 7095D8DD269964A300996F31 /* Kanban SimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7095D8E6269964A300996F31 /* Kanban SimpleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7095D8F5269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban SimpleUITests" */;
+			buildPhases = (
+				7095D8E3269964A300996F31 /* Sources */,
+				7095D8E4269964A300996F31 /* Frameworks */,
+				7095D8E5269964A300996F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7095D8E9269964A300996F31 /* PBXTargetDependency */,
+			);
+			name = "Kanban SimpleUITests";
+			productName = "Kanban SimpleUITests";
+			productReference = 7095D8E7269964A300996F31 /* Kanban SimpleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7095D8C5269964A200996F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7095D8CC269964A200996F31 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7095D8DC269964A300996F31 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7095D8CC269964A200996F31;
+					};
+					7095D8E6269964A300996F31 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7095D8CC269964A200996F31;
+					};
+				};
+			};
+			buildConfigurationList = 7095D8C8269964A200996F31 /* Build configuration list for PBXProject "Kanban Simple" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7095D8C4269964A200996F31;
+			productRefGroup = 7095D8CE269964A200996F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7095D8CC269964A200996F31 /* Kanban Simple */,
+				7095D8DC269964A300996F31 /* Kanban SimpleTests */,
+				7095D8E6269964A300996F31 /* Kanban SimpleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7095D8CB269964A200996F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7095D8D8269964A300996F31 /* Preview Assets.xcassets in Resources */,
+				7095D8D5269964A300996F31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8DB269964A300996F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8E5269964A300996F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7095D8C9269964A200996F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7095D90126998CF100996F31 /* KanbanViewModel.swift in Sources */,
+				70630A8B269C1E25007C77D8 /* MenuView.swift in Sources */,
+				708EE4AF269D98E8003AAF76 /* DoneView.swift in Sources */,
+				70D9D81A269C5BF800288814 /* ListView.swift in Sources */,
+				7095D8FA26997BAB00996F31 /* BottomView.swift in Sources */,
+				7095D8D3269964A200996F31 /* ToDoView.swift in Sources */,
+				7095D90D2699C06000996F31 /* KanbanDataModel.xcdatamodeld in Sources */,
+				7095D8FF26997EC200996F31 /* Kanban.swift in Sources */,
+				7095D8D1269964A200996F31 /* Kanban_SimpleApp.swift in Sources */,
+				70D9D81C269C728000288814 /* KanbanView.swift in Sources */,
+				70630A8D269C3F5B007C77D8 /* InProgressView.swift in Sources */,
+				7095D90F2699C64800996F31 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8D9269964A300996F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7095D8E2269964A300996F31 /* Kanban_SimpleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7095D8E3269964A300996F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7095D8EC269964A300996F31 /* Kanban_SimpleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7095D8DF269964A300996F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7095D8CC269964A200996F31 /* Kanban Simple */;
+			targetProxy = 7095D8DE269964A300996F31 /* PBXContainerItemProxy */;
+		};
+		7095D8E9269964A300996F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7095D8CC269964A200996F31 /* Kanban Simple */;
+			targetProxy = 7095D8E8269964A300996F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7095D8ED269964A300996F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7095D8EE269964A300996F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7095D8F0269964A300996F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kanban Simple/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-Simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7095D8F1269964A300996F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kanban Simple/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-Simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7095D8F3269964A300996F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanban Simple.app/Kanban Simple";
+			};
+			name = Debug;
+		};
+		7095D8F4269964A300996F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kanban Simple.app/Kanban Simple";
+			};
+			name = Release;
+		};
+		7095D8F6269964A300996F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-SimpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanban Simple";
+			};
+			name = Debug;
+		};
+		7095D8F7269964A300996F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arrinal.Kanban-SimpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kanban Simple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7095D8C8269964A200996F31 /* Build configuration list for PBXProject "Kanban Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7095D8ED269964A300996F31 /* Debug */,
+				7095D8EE269964A300996F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7095D8EF269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7095D8F0269964A300996F31 /* Debug */,
+				7095D8F1269964A300996F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7095D8F2269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban SimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7095D8F3269964A300996F31 /* Debug */,
+				7095D8F4269964A300996F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7095D8F5269964A300996F31 /* Build configuration list for PBXNativeTarget "Kanban SimpleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7095D8F6269964A300996F31 /* Debug */,
+				7095D8F7269964A300996F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7095D90B2699C06000996F31 /* KanbanDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7095D90C2699C06000996F31 /* KanbanDataModel.xcdatamodel */,
+			);
+			currentVersion = 7095D90C2699C06000996F31 /* KanbanDataModel.xcdatamodel */;
+			path = KanbanDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7095D8C5269964A200996F31 /* Project object */;
+}
